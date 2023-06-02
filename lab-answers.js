@@ -100,3 +100,47 @@ console.log(i.toUpperCase())
 }
 
 
+
+    
+////////////////////////////////
+// Methods, Revisited
+////////////////////////////////
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+
+
+// sort array in alphabetical order
+favMovies.sort();
+
+//removed 'Fast and Furious'
+favMovies.pop();
+
+// add "Guardians of the Galaxy" to the end of array
+favMovies.push("Guardians of the Galaxy");
+
+// reverse order of array
+favMovies.reverse();
+
+// remove first element of array
+favMovies.shift();
+
+// add "Guardians of the Galaxy to begining of array"
+favMovies.unshift("Guardians of the Galaxy");
+
+//splice "Django Unchained" and add "Avatar"
+//console.log(favMovies.indexOf('Django Unchained')) to find Django Unchained index
+favMovies.splice(15, 1, "Avatar");
+
+//slice the last half of the array
+const middle = Math.ceil(favMovies.length / 2);
+
+const left = favMovies.slice(0, middle);
+
+
+//console.log(slice)
+
+
+// console log index for Fast and Furious returns a negative 2
+console.log(favMovies.indexOf("Fast and Furious."))
+
+ 
