@@ -17,7 +17,7 @@ for (let num = 2; num <= 200; num+=2)
 ////////////////////////////////
 
 
-for (let num = 1; num <= 100; num++) {
+ for (let num = 1; num <= 100; num++) {
 
    if (num % 3 === 0 && num % 5 === 0) {
 
@@ -77,6 +77,21 @@ if ( i = 3) {
 
     dart.push( "Hawkins ")
 }
+ 
+
+////////////////////////////////
+// Yell at the Ninja Turtles
+////////////////////////////////
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+
+for (let i of ninjaTurtles) {
+
+
+console.log(i.toUpperCase())
+    
+}
 
 
 
+    
