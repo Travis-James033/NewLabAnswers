@@ -1,7 +1,7 @@
 ////////////////////////////////
 // Easy Going
 ////////////////////////////////
-/*
+
  for (let num = 1; num <= 20; num++)
 
  // console.log(num);
@@ -46,7 +46,7 @@ for (let num = 2; num <= 200; num+=2)
 // Wild Wild life
 ////////////////////////////////
 
-*/
+
 
 const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
 const sharky = ["Sharky", "shark", 20, "Left Coast"]
@@ -142,5 +142,47 @@ const left = favMovies.slice(0, middle);
 
 // console log index for Fast and Furious returns a negative 2
 console.log(favMovies.indexOf("Fast and Furious."))
+*/
+
+////////////////////////////////
+// Where is Waldo
+////////////////////////////////
+
+
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+
+
+
+
+
+////////////////////////////////
+// Excited Kitten 
+////////////////////////////////
+
+
+
+
+const kittyTalk = [["...human... why you taking pictures of me...?"], ["...the catnip made me do it..."], ["...why does the red dot always get away...?"]]
+
+for (let meow = 0; meow <= 20; meow++) {
+
+ //console.log('"Love me, pet me! HSSSSSS!"');
+
+    if ( meow % 2 === 0);
+
+   kittyTalk[meow] = Math.floor( Math.random(kittyTalk) *20);
+
+}
+
+
+
+
+
+
 
  
+
+
+
